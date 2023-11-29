@@ -1,19 +1,5 @@
-# How to Speed-Up Pandas Data Processing
+# Parallel Batch API Calls
 
-This Jupyter Notebook (`pandas-speed-up.ipynb`) implements different ways of data processing, such as:
+If you need to call an API in a parallel batch, I have got you covered.
 
-- pd.iterrows()
-- pd.itertuples()
-- pd.apply()
-- pandarallel
-- multiprocessing pool
-- concurrent future pool
-- Dask
-- Vectorization
-
-## Requirements
-
-You can create a conda enviroment using the `environment.yml` file.
-
-    conda env create -f environment.yml
-
+Here, I am exploring how an API can be called in parallel and collect its data for further analysis. This methos is useful in various scenarios such as calling an API in batch, performing a load test, running a batch inference, or collecting data.

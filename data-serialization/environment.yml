@@ -1,4 +1,4 @@
-name: python-data
+name: python-data-serialization
 channels:
   - defaults
   - anaconda
@@ -7,17 +7,12 @@ dependencies:
   - python=3.9
   - numpy
   - pandas
-  - dask
   - matplotlib
   - plotly
   - jupyterlab
-  - ipywidgets
-  - tqdm
   - pytables
   - lxml
   - pyarrow=11.0.0
   - pip
   - pip:
-      - streamlit
-      - pandarallel
-      - ipython-autotime
+      - tqdm

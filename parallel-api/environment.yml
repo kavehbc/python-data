@@ -1,4 +1,4 @@
-name: python-data
+name: data-structure
 channels:
   - defaults
   - anaconda
@@ -7,17 +7,21 @@ dependencies:
   - python=3.9
   - numpy
   - pandas
-  - dask
+  - scikit-learn
+  - seaborn
   - matplotlib
   - plotly
+  - sqlalchemy
   - jupyterlab
-  - ipywidgets
   - tqdm
+  - fastapi
+  - uvicorn
+  - pytorch
+  - torchvision
+  - python-multipart
   - pytables
   - lxml
   - pyarrow=11.0.0
   - pip
   - pip:
       - streamlit
-      - pandarallel
-      - ipython-autotime
