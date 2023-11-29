@@ -4,11 +4,11 @@ In this repository, I am exploring different aspects of working with data in ord
 
 The following projects are available:
 
-- **data-serialization**: This investigates different serializtion formats in Pandas and PyArrow such as CSV, JSON, Parquet, etc. This repository compare the saving time, loading time, file size and conversion time. This analysis can help us to make a better decision next time we need to save/load our data.
+- **data-serialization**: This investigates different serializtion formats in `Pandas` and `PyArrow` such as `CSV`, `JSON`, `Parquet`, etc. This repository compare the `saving time`, `loading time`, `file size` and `conversion time`. This analysis can help us to make a better decision next time we need to save/load our data.
 
 - **pandas-speedup**: Data manipulation is a time/resource expensive part in most of Data Science projects. Here I am exploring the different scenarios of maipulating pandas dataframe as fast as possible. I have covered multiple methods such as using simple loop, apply function, parallel computations, etc.
 
-- **parallel-api**: Do you need to call an API in batch? Either it is for load testing, batch testing, batch inference, or data data collection, I have a solution here.
+- **parallel-api**: Do you need to call an API in batch? Either it is for load testing, batch testing, batch inference, or data data collection, I have a solution here for you.
 
 ## Requirements
 
