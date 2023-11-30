@@ -28,8 +28,8 @@ If you need to publish the plotly charts online, you should add the credentials 
 
 ```toml
 [plotly]
-username=plotly_username
-api_key=plotly_api_key
+username = "plotly_username"
+api_key = "plotly_api_key"
 ```
 
 For more information, you can check [Plotly Chart-Studio](https://chart-studio.plotly.com/).
