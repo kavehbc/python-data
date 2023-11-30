@@ -17,6 +17,22 @@ Each project in its own folder has its own `environment.yml` file. But if you ne
 The following command creates a conda environment using the given `environment.yml`.
 
     conda env create -f environment.yml
+    
+## Config File
+
+There is a `config-sample.toml` which should be renamed into `config.toml` first and edited with the correct parameters.
+
+### Plotly Chart-Studio
+
+If you need to publish the plotly charts online, you should add the credentials in the `config.toml` file.
+
+```toml
+[plotly]
+username=plotly_username
+api_key=plotly_api_key
+```
+
+For more information, you can check [Plotly Chart-Studio](https://chart-studio.plotly.com/).
 
 ## Developer(s)
 

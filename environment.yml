@@ -21,3 +21,4 @@ dependencies:
       - streamlit
       - pandarallel
       - ipython-autotime
+      - chart-studio
